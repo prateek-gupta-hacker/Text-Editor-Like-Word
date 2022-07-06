@@ -1,0 +1,41 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #f5f5f5;
+}
+
+header{
+	width: 1000%;
+	height: 140px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #087cff;
+	padding-left: 110px;
+	box-sizing: border-box;
+}
+
+#app-name{
+	margin-left: 480px;
+	font-family: poppins;
+}
+
+button{
+	margin-left: 40px;
+	width: 70px;
+	height: 30px;
+	font-family: century-gothic;
+}
+#page{
+	width: 70%;
+	height: 1200px;
+	background-color: white;
+	margin: 148px auto;
+	border: 1px solid #ccc;
+	font-size: 20px;
+	padding: 8px;
+	box-sizing: border-box;
+}
+#page:focus{
+	outline:none;
+}
